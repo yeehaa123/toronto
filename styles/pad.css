@@ -1,0 +1,40 @@
+component(pad){ 
+  font-family: NittyBold;
+  box-sizing: border-box;
+  font-size: 18px;
+  height: calc(var(--baseUnit) * 1.5);
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  border: none;
+  background: var(--baseColor);
+  color: var(--inverseColor);
+  min-width: calc(3 * var(--baseUnit));
+  min-width: calc(3 * var(--baseUnit));
+  height: calc(3 * var(--baseUnit));
+}
+
+button {
+  font-family: NittyBold;
+  box-sizing: border-box;
+  font-size: 18px;
+  height: calc(var(--baseUnit) * 1.5);
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  border: none;
+  background: var(--baseColor);
+  color: var(--inverseColor);
+  min-width: calc(3 * var(--baseUnit));
+  min-width: calc(3 * var(--baseUnit));
+}
+
+.active, .pad:hover {
+  background: var(--red);
+}
+
+.autoplay {
+  margin: 5px;
+}

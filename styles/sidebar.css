@@ -1,0 +1,11 @@
+component(sidebar) {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--inverseColor);
+  min-width: calc(15 * var(--baseUnit));
+  max-width: calc(15 * var(--baseUnit));
+  background-color: var(--darkBaseColor);
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: NittyNormal;
+  src: url('../assets/fonts/NN.woff') format('woff');
+}
+
+@font-face {
+  font-family: NittyBold;
+  src: url('../assets/fonts/NB.woff') format('woff');
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+  }
+
+component(app){
+  display: flex;
+  font-family: NittyNormal;
+  height: 100%;
+}
+
